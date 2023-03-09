@@ -1,6 +1,6 @@
 #include "kernel.h"
 
-float baseline(unsigned n, double **a, double *b)
+float baseline(unsigned n, double a[n][n], double *b)
 {
     unsigned i, j;
     float s = 0.0;
